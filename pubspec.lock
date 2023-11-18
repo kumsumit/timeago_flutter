@@ -155,10 +155,11 @@ packages:
   timeago:
     dependency: "direct main"
     description:
-      name: timeago
-      sha256: c44b80cbc6b44627c00d76960f2af571f6f50e5dbedef4d9215d455e4335165b
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "671dd637acc8ddd95237795ffe764cbb0f68c35b"
+      url: "https://github.com/kumsumit/timeago.git"
+    source: git
     version: "3.6.0"
   vector_math:
     dependency: transitive
@@ -177,4 +178,4 @@ packages:
     source: hosted
     version: "0.3.0"
 sdks:
-  dart: ">=3.2.0-194.0.dev <4.0.0"
+  dart: ">=3.2.0 <4.0.0"
